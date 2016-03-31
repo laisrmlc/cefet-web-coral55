@@ -1,2 +1,78 @@
 /* Importa o arquivo CSS que importa a fonte Ravie */
 @import "fonts/ravie.css";
+#cabecalho h1{
+	font-family: "ravie";
+	color: #e90c0c;
+	margin-top: 0px;;
+}
+#cabecalho em{
+	color: #d027aa;
+}
+#cabecalho h2{
+	font-family: "Trebuchet MS";
+	font-size: 24px;
+	color: #333;
+}
+
+#lateral h2{
+	font-family: "Verdana";
+	font-size: 48px;
+	color: #333;
+	text-decoration: bold;
+	transform: rotate(270deg); /* dado em graus, sentido horário */
+
+}
+#siri{
+	position: relative;
+	left: -10px;
+	top: 17px;
+	float: left;
+}
+#lateral #bolhas img{
+	
+}
+#lateral #peixe img{
+	
+}
+#cardapio{
+
+}
+
+#cardapio p{
+	font-family: "Verdana";
+	font-size: 14px;
+	color: #333;
+}
+#conteudo h3{
+	font-size: 10px;
+	text-decoration: bold;
+}
+
+#cardapio h3{
+	font-size: 18px;
+	color: #333;
+	font-family: "Verdana";
+	text-decoration: bold;
+	
+}
+#recipiente {
+	position: relative;
+	display: block;
+	margin: 0 auto;
+	box-sizing: 800px;
+	margin-left: 154px;
+	background-image: linear-gradient(to bottom, #f6f1b2, #4599b2);
+}
+#lateral{
+	float: left;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+
+body{
+	margin-top: 0px;
+	
+	/*margin-left: 20px;*/
+	
+}
