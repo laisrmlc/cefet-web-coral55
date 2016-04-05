@@ -8,45 +8,46 @@
 <body>
   <!-- substitua os elementos não semânticos por elementos semânticos -->
   <div id="recipiente">
-    <div id="cabecalho">
+    <header id="cabecalho">
       <h1>Lanchonete do Coral 55</h1>
       <h2>O melhor <em>açaí</em> marítimo da região</h2>
-    </div>
-    <div id="conteudo">
-      <div id="lateral">
+    </header>
+    <article id="conteudo">
+      <section id="lateral">
         <img src="images/siri.png" alt="Um siri feliz após comer na lanchonete" id="siri">
         <h2>Cardápio</h2>
         <img src="images/bolhas.png" alt="Bolhas de ar" id="bolhas">
-        <img src="images/peixe.png" alt="Peixe feliz após beber um delicioso
-          coquetel de algas" id="peixe">
-      </div>
-      <div id="cardapio">
+        <img src="images/peixe.png" alt="Peixe feliz após beber um delicioso coquetel de algas" id="peixe">
+      </section>
+      <article id="cardapio">
         <h3>Salgados</h3>
         <!--
           encontre uma forma para dispor os itens do cardápio com seus
           nomes à esquerda e os preços à direita
         -->
-        <p>Pão de queijo de égua marinha $ 0,99</p>
-        <p>Hamburguer de microinsetos com salada de algas ou de musgo $ 2,49</p>
+        <div>Pão de queijo de égua marinha <span>$ 0,99</span></div>
+        <div>Hamburguer de microinsetos com salada de algas ou de musgo <span>$ 2,49</span></div>
         <h3>Pratos</h3>
-        <p>Açaí do manguezal 500ml $ 4,99</p>
-        <p>Açaí marítimo (assinatura) 500ml $ 6,99</p>
-        <p>Algas verdes fritas $ 7,49</p>
-        <p>Plâncton ao molho de maracujá $ 12,49</p>
-        <p>Plâncton do pacífico (importado) marinado $ 19,99</p>
+        <div>Açaí do manguezal 500ml<span>$ 4,99</span></div>
+        <div>Açaí marítimo (assinatura) 500ml <span>$ 6,99</span></div>
+        <div>Algas verdes fritas <span>$ 7,49</span></div>
+        <div>Plâncton ao molho de maracujá<span>$ 12,49</span></div>
+        <div>Plâncton do pacífico (importado) marinado <span>$ 19,99</span></div>
         <h3>Bebes</h3>
-        <p>Água temperada (cortesia)</p>
-        <p>Água doce importada (copo) $ 29,49</p>
-        <p>Coquetel de algas (alcoólico) $ 8,99</p>
-        <p>Coquetel de algas (kids) $ 5,49</p>
-      </div>
-    </div>
-    <div id="rodape">
+        <div>Água temperada (cortesia)</div>
+        <div>Água doce importada (copo) <span>$ 29,49</span></div>
+        <div>Coquetel de algas (alcoólico) <span>$ 8,99</span></div>
+        <div>Coquetel de algas (kids) <span>$ 5,49</span></div>
+      </article>
+    </article>
+    <footer id="rodape">
       <img src="images/cartoes.png" alt="Formas de pagamento: Visa e Masterard">
-    </div>
+    </footer>
   </div>
   <div id="ticket">
-    <img src="images/ticket.png" alt="Cupom de desconto">
+    <img id="desconto"src="images/ticket.png" alt="Cupom de desconto">
   </div>
+  <script language="javascript" src="js/bubbles.js"></script>
 </body>
+
 </html>
